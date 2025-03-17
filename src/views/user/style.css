@@ -1,0 +1,57 @@
+.main {
+  display: column;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  height: 12rem;
+  border-radius: 0.2rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px #0000001a;
+  overflow-x: auto;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 1rem 10px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.btn {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: #34d399;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #10b981;
+}
+
+table {
+  width: 78rem;
+}
+
+th {
+  font-size: small;
+  font-weight: 200;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+td {
+  font-size: small;
+  font-weight: 100;
+  padding: 0.3rem;
+}
+
+.td-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

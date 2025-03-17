@@ -1,0 +1,89 @@
+.card-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card-sm {
+  width: 44%;
+  height: 5rem;
+  padding: 10px;
+  border-radius: 0.2rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  color: #374151;
+  font-size: small;
+}
+
+.card-icon {
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+}
+
+@media (min-width: 768px) {
+  .card-sm {
+    width: 22%;
+  }
+}
+
+.icon-users {
+  width: 40px;
+  height: 40px;
+  filter: invert(20%);
+  margin-left: 0.5rem;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../assets/icons/icon-users.svg");
+}
+
+.icon-money-in {
+  width: 40px;
+  height: 40px;
+  margin-left: 0.5rem;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../assets/icons/icon-money-in.svg");
+}
+
+.icon-money-out {
+  width: 40px;
+  height: 40px;
+  margin-left: 0.5rem;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../assets/icons/icon-money-out.svg");
+}
+
+.icon-issue {
+  width: 40px;
+  height: 40px;
+  filter: invert(20%);
+  margin-left: 0.5rem;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../assets/icons/icon-issue.svg");
+}
+
+.bg-blue {
+  background-color: #dbeafe;
+}
+
+.bg-cyan {
+  background-color: #cffafe;
+}
+
+.bg-yellow {
+  background-color: #fef9c3;
+}
+
+.bg-red {
+  background-color: #fee2e2;
+}
